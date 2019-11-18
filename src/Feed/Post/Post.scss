@@ -1,0 +1,33 @@
+
+
+.Post{
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+  background-color: #e9e9e9;
+  width: 600px;
+
+}
+
+.Post > h6{
+  font-family: 'Roboto', sans-serif;
+  font-size: 33px;
+  color: black;
+}
+
+.Post > discription{
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  font-family: 'Roboto', sans-serif;
+}
+
+.PostImage{
+  width: 45%;
+  height: 50%;
+
+}
